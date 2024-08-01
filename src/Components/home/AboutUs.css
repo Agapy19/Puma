@@ -1,0 +1,38 @@
+.about-us {
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 250px;
+}
+
+.about-section {
+    padding: 50px 20px;
+}
+
+.about-section h2 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #aaaaaa;
+    font-family: Arial,  sans-serif;
+    font-weight: 800;
+}
+
+.video-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.video-section iframe {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}

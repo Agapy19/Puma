@@ -1,0 +1,48 @@
+.carousel-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+  }
+  
+  .carousel-container .carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none; /* Permet aux clics de passer à travers si nécessaire */
+    z-index: 10; /* Assurez-vous que le texte est au-dessus des images */
+  }
+  
+  .carousel-container .carousel-content {
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+   height: 200px;
+   padding: 50px;
+    border-radius: 10px; /* Coins arrondis */
+    margin-top: 300px;
+  }
+  .carousel-container img{
+    height: 100vh;
+  }
+  
+  .carousel-container .carousel-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0; /* Supprimer les marges par défaut */
+  }
+  
+  .carousel-container .carousel-content h1 .highlight {
+    color: var(--main-color);
+  }
+  
+  .carousel-container .carousel-content p {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0; /* Supprimer les marges par défaut */
+  }
+  

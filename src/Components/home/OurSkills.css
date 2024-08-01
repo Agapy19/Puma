@@ -1,0 +1,59 @@
+.skills-section {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 20px; /* Ajustez le padding selon vos besoins */
+  color: black; /* Assurez-vous que le texte est lisible sur le fond */
+  position: relative;
+  text-align: center;
+  height: 90vh;
+}
+
+.content {
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.skills-title {
+  font-size: 4em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: var(--main-color);
+  margin-top: -20px;
+}
+
+.skills-subtitle {
+  font-size: 1.2em;
+  margin-bottom: 80px;
+  margin-top: 40px;
+  margin-left: 280px;
+width: 40%;
+}
+
+.skills-articles {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.article {
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+  color: black;
+  text-align: center;
+}
+
+.article-date {
+  font-size: 1.3em;
+  font-weight: 400;
+  color: var(--main-color);
+  margin-bottom: 5px;
+}
+
+.article-title {
+  font-size: 1.7em;
+  font-weight: bold;
+}
