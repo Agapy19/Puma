@@ -5,7 +5,7 @@ import './FooterBottom.css';
 const FooterBottom = () => {
   return (
     <div className="footer-bottom">
-      <p>© 2024 Puma Communication. Tous droits réservés</p>
+      <p>© 2024 <span>Puma Communication</span>. Tous droits réservés</p>
       <div className="social-icons">
         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
         <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>

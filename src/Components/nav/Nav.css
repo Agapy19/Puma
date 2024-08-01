@@ -37,7 +37,11 @@
   font-weight: 500;
   padding: 5px 10px;
 }
-
+.nav-links li a:hover,
+.nav-links .active-link {
+  color: var(--main-color);
+  font-weight: 700;
+}
 .nav-links li:hover a {
   color: var(--main-color);
 }
@@ -83,16 +87,16 @@
 }
 
 .nav-call-us button {
-  background-color: var(--main-color);
+  background-color: transparent;
   color: black;
-  border: none;
+  border: 1px solid var(--main-color);
   padding: 10px 20px;
   font-size: 1.2rem;
   font-weight: 500;
   cursor: pointer;
-  border-radius: 50px; /* Bordures arrondies */
+  border-radius: 50px;
 }
 
 .nav-call-us button:hover {
-  background-color: #ffdd57;
+  background-color: bold;
 }
