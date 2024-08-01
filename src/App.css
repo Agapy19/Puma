@@ -10,9 +10,10 @@
     text-decoration: none;
   }
 :root {
-    --main-color: yellow;
+    --main-color: gold;
     --bs-gray-400: #ced4da;
+    --p-color : #aaaaaa;
      }
      body{
-      background: #fff;
+      background: #ffffff;
      }
