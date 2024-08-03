@@ -98,5 +98,5 @@
 }
 
 .nav-call-us button:hover {
-  background-color: bold;
+  background-color: var(--main-color);
 }

@@ -1,5 +1,5 @@
 .about-us {
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     padding: 50px 20px;
     margin-top: 250px;
@@ -20,7 +20,7 @@
     margin: 0 auto;
     line-height: 1.6;
     color: #aaaaaa;
-    font-family: Arial,  sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: 800;
 }
 
@@ -34,5 +34,5 @@
 .video-section iframe {
     width: 100%;
     max-width: 800px;
-    height: auto;
+    height: 450px;
 }

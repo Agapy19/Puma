@@ -1,0 +1,134 @@
+/* src/Contact.css */
+.contact h1{
+    color: black;
+    font-size: 40px;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 10%;
+  }
+  
+  .contact-info {
+    width: 45%;
+  }
+  
+  .contact-info h2 {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 800;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #555;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-info p svg {
+    margin-right: 10px;
+  }
+  
+  .contact-info a {
+    color: #FFA500; /* Orange color */
+    text-decoration: none;
+  }
+  
+  .contact-form {
+    width: 50%;
+  }
+  
+  .contact-form h2 {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 800;
+  }
+  
+  .contact-form p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form .form-group input {
+    width: calc(53% - 20px); /* Adjust width for spacing */
+    margin-right: 15px; /* Add spacing between inputs */
+  }
+  
+  .contact-form .form-group input:last-child {
+    margin-right: 0; /* Remove margin from the last input */
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 25px; /* Arrondir les coins */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form textarea {
+    width: 100%;
+    resize: none;
+    height: 150px;
+    border-radius: 25px; /* Arrondir les coins */
+    margin-bottom: 20px; /* Add spacing below the textarea */
+  }
+  
+  .form-buttons {
+    display: flex;
+    
+  }
+  
+  .form-buttons button {
+    width: 147px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 800;
+    border: none;
+    border-radius: 50px; /* Arrondir les coins */
+    cursor: pointer;
+    margin-right: 10px; /* Add spacing between buttons */
+  }
+  
+  .form-buttons button:last-child {
+    margin-right: 0; /* Remove margin from the last button */
+  }
+  
+  .form-buttons button[type="submit"] {
+    background-color: var(--main-color); 
+    color: white;
+  }
+  .form-buttons button[type="submit"]:hover {
+    background-color: #ccc;
+    color: black;
+  }
+  
+  .form-buttons button[type="button"] {
+    background-color: #ccc;
+  }
+  .form-buttons button[type="button"]:hover {
+    background-color:  var(--main-color);
+    color: white;
+  }
+  

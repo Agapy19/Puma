@@ -1,8 +1,16 @@
 import { NavLink } from 'react-router-dom';
 import './Nav.css';
 
-
 function Nav() {
+  const phoneNumber = '80023456789'; // Remplacez par le numéro de téléphone souhaité
+  const whatsappNumber = '80023456789'; // Remplacez par le numéro de téléphone souhaité
+
+  const handlePhoneClick = () => {
+    window.location.href = `tel:${phoneNumber}`;
+  };
+
+  
+
   return (
     <nav className="nav-container">
       <div className="nav-logo">
@@ -45,7 +53,7 @@ function Nav() {
         </li>
       </ul>
       <div className="nav-call-us">
-        <button>Appelles-nous</button>
+        <button onClick={handlePhoneClick}>Appelle-nous</button>
       </div>
     </nav>
   );

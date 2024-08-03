@@ -39,7 +39,7 @@
   
   .service-card svg {
     font-size: 2em;
-    color: gold;
+    color: var(--main-color);
     margin-bottom: 10px;
   }
   
