@@ -4,7 +4,7 @@ import './OurSkills.css';
 
 const OurSkills = () => {
   return (
-    <div className="skills-section" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/Images/bgskills.jpg)` }}>
+    <div className="skills-section" >
       <div className="content">
         <h2 className="skills-title">Notre Expertise</h2>
         <p className="skills-subtitle">
