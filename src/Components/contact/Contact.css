@@ -1,9 +1,10 @@
 /* src/Contact.css */
-.contact h1{
+.contact h1 {
     color: black;
     font-size: 40px;
-}
-.contact-container {
+  }
+  
+  .contact-container {
     display: flex;
     justify-content: space-between;
     padding: 40px;
@@ -67,10 +68,11 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    position: relative;
   }
   
   .contact-form .form-group input {
-    width: calc(53% - 20px); /* Adjust width for spacing */
+    width: calc(93% - 20px); /* Adjust width for spacing */
     margin-right: 15px; /* Add spacing between inputs */
   }
   
@@ -95,9 +97,21 @@
     margin-bottom: 20px; /* Add spacing below the textarea */
   }
   
+  .contact-form input.error,
+  .contact-form textarea.error {
+    border: 1px solid red;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    right: 230px;
+    margin-top: -18px;
+  }
+  
   .form-buttons {
     display: flex;
-    
   }
   
   .form-buttons button {
@@ -116,9 +130,10 @@
   }
   
   .form-buttons button[type="submit"] {
-    background-color: var(--main-color); 
+    background-color: var(--main-color);
     color: white;
   }
+  
   .form-buttons button[type="submit"]:hover {
     background-color: #ccc;
     color: black;
@@ -127,8 +142,9 @@
   .form-buttons button[type="button"] {
     background-color: #ccc;
   }
+  
   .form-buttons button[type="button"]:hover {
-    background-color:  var(--main-color);
+    background-color: var(--main-color);
     color: white;
   }
   
