@@ -140,7 +140,9 @@
   height: 10px;
   border-radius: 5px;
 }
-
+@media (max-width: 1024px) {
+  
+    }
 @media (max-width: 768px) {
     .intro-content {
         align-items: center;
